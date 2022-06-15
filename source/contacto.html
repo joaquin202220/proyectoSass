@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="nav-container">
+      <div class="nav-center">
+        <!-- nav logo -->
+        <div class="nav-logo">
+          <a href="../index.html">
+            <img
+              src="../logo/logo_small.png"
+              alt=""
+              class="img-nav animate__animated animate__flipInX"
+            />
+          </a>
+        </div>
+        <div class="nav-tittle">
+          <p class="animate__animated animate__flipInX">
+            Un compromiso con el productor argentino
+          </p>
+        </div>
+        <!-- end of nav logo -->
+        <!-- Nav links -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="./contacto.html"
+                  >Contacto</a
+                >
+                <a class="nav-link" href="./historia.html">Historia</a>
+                <a class="nav-link" href="./mercado.html">Mercado</a>
+                <a class="nav-link" href="./oficinas.html">Oficinas</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- end of nav links -->
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- Main page -->
+    <main class="main-page">
+      <section class="contact-container">
+        <!-- Image of contact page -->
+        <div class="img img-contact">
+          <img src="../img/fo-contacto.jpg" alt="" class="img" />
+        </div>
+        <!-- End of Image of contact page -->
+        <div class="title-contact">
+          <h3>Contacto</h3>
+        </div>
+        <!-- Contact and info -->
+        <div class="form">
+          <!-- Information -->
+          <div class="contact-info">
+            <h4 class="titulo-info">Datos del contacto</h4>
+            <p>
+              <a href="infologicorp@gmail.com" class="contact-mail"
+                >infologicorp@gmail.com</a
+              >
+              <br />
+              Lineas rotativas: (02395) 450920
+            </p>
+            <div class="div-separador"></div>
+            <p>
+              <strong>CARLOS CASARES | CASA CENTRAL</strong>
+            </p>
+            <p>Belgrano 86 - (B6530DPA)</p>
+            <p>Carlos Casares, Pcia. de Buenos Aires</p>
+            <div class="div-separador"></div>
+            <p>
+              <strong>Buenos Aires</strong>
+            </p>
+            <p>Jerónimo Salguero 2731, Piso 6, Of. 61</p>
+            <p>Torre Las Plazas, Palermo - (C1425DEL)</p>
+            <p>CABA</p>
+          </div>
+          <!-- End of information -->
+          <!-- Contact form -->
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label"
+                >Numero de telefono</label
+              >
+              <input type="password" class="form-control" id="inputPassword4" />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="Nombre de la empresa"
+              />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label"
+                >Nombre del solicitante</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress2"
+                placeholder="Nombre solicitante"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Pais</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputCity"
+                placeholder="Pais de origen"
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Provincia</label>
+              <select id="inputState" class="form-select">
+                <option selected>Elegir Provincia...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">CP</label>
+              <input type="text" class="form-control" id="inputZip" />
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Mantenme informado
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+          <!-- End of Contact form -->
+        </div>
+        <!-- End of contact and info -->
+      </section>
+    </main>
+    <!-- end of main page -->
+    <!--  footer -->
+    <footer class="footer-page">
+      <div class="info-footer">
+        <p class="contenido-footer">+542235454567</p>
+        <p class="contenido-footer">infologicorp@gmail.com</p>
+        <p class="contenido-footer">LOGICORP HNOS S.A</p>
+        <p class="contenido-footer">Todos los derechos reservados</p>
+      </div>
+      <div class="icono-footer">
+        <div class="icono">Icono Empresa</div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end of footer -->
+  </body>
+</html>
